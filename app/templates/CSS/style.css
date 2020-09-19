@@ -1,0 +1,15 @@
+
+table { 
+  table-layout: fixed;
+  width: 100%
+}
+
+
+td.title{
+	style="width: 300;"
+}
+
+td.url{
+	style="max-width: 400px"
+}
+

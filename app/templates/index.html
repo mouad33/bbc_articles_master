@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<title>Bbc Articles</title>
+		<link rel="stylesheet" type="text/css"  href='CSS/style.css' >
+		
+		</style>
+	</head>
+<body>
+	<h1><p style="text-align:center">Bbc Articles</p></h1>
+	
+	
+	
+	<table border="1">
+	    <tr>
+	    	<th>Title</th>
+	    	
+	    	<th>Url</th>
+	    	
+	    	<th>Related_topics</th>
+			<th>Article_text</th>
+		
+	    </tr>
+	       <?php
+
+    // output data of each row
+    //foreach($res as $article) {?>
+	{% for article in res %}
+    
+		<tr>
+	
+			<td class="title">{{ article["title"] }}</td>
+			
+			<td class="url"><a href='{{ article["url"] }}'>{{ article["url"] }}</a></td>
+			
+			<td>{{ article["related_topics"] }}</td>
+			<td>{{ article["article_text"][0:200]+'...' }}</td>
+			
+
+		</tr>
+		{% endfor %}
+	<?php // }?>
+	</table>
+
+	
+	</table>
+	
+</body>
+</html>
