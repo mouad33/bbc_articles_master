@@ -3,7 +3,7 @@ import scrapy
 
 from scrapy.linkextractors import LinkExtractor
 from scrapy.spiders import CrawlSpider, Rule
-#from bbcnews.loaders import *
+
 from scrapy import Request
 from bbc_articles.items import *
 import logging
