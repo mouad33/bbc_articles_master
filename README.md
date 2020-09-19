@@ -1,4 +1,4 @@
-# news_scraper_api
+# Articles_scraper_api
 scraping bbc articles with scrapy and provide API
 
 ```
