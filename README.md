@@ -2,9 +2,9 @@
 scraping bbc articles with scrapy and provide API
 
 ```
- Start scrapping
-```
 scrapy crawl bbc
+```
+
 
 ```
 This will crawl bbc and save the data in Mongo Data base 
