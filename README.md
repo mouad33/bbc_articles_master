@@ -20,10 +20,10 @@ This spider can mainly scrape the articles  from the home page of bbc, in this f
 
 ```
 {
-  "title": "", 
-  "url": "", 
-  "related_topics": : "", 
-  "aricle_text": "", 
+  "title": "TikTok and WeChat: US to ban app downloads in 48 hours", 
+  "url": "https://www.bbc.com//news/technology-54205231", 
+  "related_topics" : "Technology", 
+  "aricle_text": "TikTok and WeChat will be banned from US app stores from Sunday...", 
 }
 
 ```
